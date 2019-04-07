@@ -1,0 +1,24 @@
+{
+  "name": "tithe-calculator-theme",
+  "version": "1.0.0",
+  "description": "This theme is for version 1 of TC.",
+  "main": "sass/styles.scss",
+  "keywords": [
+    "tithe",
+    "church",
+    "christian",
+    "God",
+    "love",
+    "Jesus"
+  ],
+  "author": "Benjamin Lamptey",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.7.4",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  }}
